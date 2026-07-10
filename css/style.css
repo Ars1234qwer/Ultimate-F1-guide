@@ -613,3 +613,18 @@ background:url(../images/multiple.jpeg) no-repeat center center;
 	text-decoration:none;
 	padding:0 15px 0 0;
 }
+/* Favorite Driver JS Tool */
+
+.discover-left {
+    float: left;
+    width: 65%;
+}
+
+.discover-right {
+    float: right;
+    width: 30%;
+    background: #ffffff;
+    padding: 15px;
+    border: 2px solid #c00000;
+    margin-top: 40px;
+}

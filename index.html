@@ -1,0 +1,127 @@
+<!DOCTYPE html>       
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>                           
+	<meta charset="UTF-8">
+	<title>Ultimate F1 Guide</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">     
+</head>   
+<body>
+	<div class="page">
+		<div class="header">
+			<a href="index.html" id="logo">
+    		<img src="F1.png" alt="logo" width="100" height="100" text-align="center">     
+			</a>
+			<ul>
+				<li class="selected">
+					<a href="index.html">Home</a> <span></span>        
+				</li>
+				<li>
+					<a href="WhatisF1.html">What is F1</a> <span></span>
+				</li>
+				<li>
+					<a href="F1Cars.html">F1 Cars</a> <span></span>
+				</li>
+				<li>
+					<a href="FamousTracks.html">Famous Tracks</a> <span></span>       
+				</li>
+			</ul>
+			<div class="featured">
+				<h2>Welcome to F1 Guide</h2>
+				<p>
+				Welcome to the Ultimate F1 Guide. This website introduces the world of Formula 1, including its cars, famous tracks, and what makes the sport exciting for millions of fans around the world.
+				</p>
+				<p>
+					Original template : <a href="https://freewebsitetemplates.com/preview/carracingwebtemplate/index.html">Original Website template link</a>   
+				</p>
+				
+    </div>   
+	
+			</div>           
+		</div>
+	      
+		    <div class="body">                                  
+			<div class="content">
+				<h1>Discover F1</h1> 
+	
+	            <a href="#"><img src="images/Start.jpg" alt="" width ="600" height = "300"></a>
+				<p>
+					Formula 1 races take place in different countries and feature the most advanced racing cars in motorsport. Teams and drivers compete throughout the season to earn points and win the World Championship.
+				</p>
+				<p>
+					Formula 1 is more than just speed. Teams must make important strategic decisions during every race, including tire choices and pit stop timing. These decisions can often determine the outcome of a Grand Prix.
+				</p>
+				<h3>Who Is Your Favorite Modern F1 Driver?</h3>
+				<select id="driver">
+                <option value="">--Select a Driver--</option>
+				<option value="max">Max Verstappen</option>
+				<option value="lewis">Lewis Hamilton</option>
+				<option value="george">George Russell</option>
+				<option value="fernando">Fernando Alonso</option>
+				<option value="charles">Charles Leclerc</option>
+				<option value="lando">Lando Norris</option>
+				<option value="oscar">Oscar Piastri</option>
+			    </select>
+				<button onclick="showDriver()">Show Info</button>
+				<p id="driverResult"></p>   
+                <script>
+				function showDriver() {
+			    let driver = document.getElementById("driver").value;
+                let result = "";
+                if (driver === "max") {
+                   result = "Max Verstappen drives for Red Bull Racing and is known for his aggressive racecraft, consistency, and multiple World Championships.";
+                  } 
+                else if (driver === "lewis") {    
+                   result = "Lewis Hamilton is one of the most successful Formula 1 drivers in history, with multiple World Championships and over a decade at the top of the sport.";
+                  }
+                else if (driver === "george") {
+                   result = "George Russell is a Mercedes driver recognized for his qualifying pace, race consistency, and leadership within the team.";
+                  }
+                else if (driver === "fernando") {
+                   result = "Fernando Alonso is a two-time Formula 1 World Champion whose long career, race intelligence, and adaptability have made him one of the sport's greatest drivers.";
+                  }
+                else if (driver === "charles") {
+                   result = "Charles Leclerc is Ferrari's lead driver and is renowned for his speed, qualifying performances, and ability to extract maximum pace from the car.";
+                  }
+                else if (driver === "lando") {
+                   result = "Lando Norris drives for McLaren and is known for his speed, consistency, and strong connection with Formula 1 fans.";
+                  }
+                else if (driver === "oscar") {
+                   result = "Oscar Piastri is one of Formula 1's most promising young talents and has quickly established himself as a front-running driver for McLaren.";
+                  }
+                else {
+                   result = "Please select a driver from the list.";
+                 }
+                document.getElementById("driverResult").innerHTML = result;
+				}
+				</script>  
+
+			</div>
+		</div>
+		<div class="footer">
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="WhatisF1.html">What is F1</a>
+				</li>
+				<li>
+					<a href="F1Cars.html">F1 Cars</a>
+				</li>
+				<li>
+					<a href="FamousTracks.html">Famous Tracks</a>
+				</li>
+			</ul>
+			<p>
+				Student ID: 25229073 | Student Name: Ayoobi Arsalaan     
+			</p>
+		</div>
+	</div>
+	<script>
+    window.onload = function() {
+    alert("Welcome to the Ultimate F1 Guide!");
+    };
+   </script>
+</body>
+</html>   

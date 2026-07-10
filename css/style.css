@@ -621,10 +621,9 @@ background:url(../images/multiple.jpeg) no-repeat center center;
 }
 
 .discover-right {
-float: right;
+position: relative;
+left: 180px;
 width: 280px;
-margin-right: -150px;
-margin-top: 20px;
 background: #ffffff;
 padding: 15px;
 border: 2px solid #c00000;

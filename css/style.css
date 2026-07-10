@@ -621,10 +621,11 @@ background:url(../images/multiple.jpeg) no-repeat center center;
 }
 
 .discover-right {
-    float: right;
-    width: 30%;
-    background: #ffffff;
-    padding: 15px;
-    border: 2px solid #c00000;
-    margin-top: 40px;
+    position: absolute;
+    right: 100px;
+    top: 420px;
+	width: 280px;
+	background: #ffffff;
+	padding: 15px;
+	border: 2px solid #c00000;
 }

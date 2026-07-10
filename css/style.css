@@ -623,7 +623,7 @@ background:url(../images/multiple.jpeg) no-repeat center center;
 .discover-right {
 float: right;
 width: 280px;
-margin-right: 80px;
+margin-right: -150px;
 margin-top: 20px;
 background: #ffffff;
 padding: 15px;
